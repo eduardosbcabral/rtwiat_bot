@@ -6,7 +6,7 @@ const Twit = require('twit');
 const T = new Twit(config);
 
 const BOT_USERNAME_WAT = 'rtwiatBot';
-const BOT_USERNAME = '@rtwiatBot';
+const BOT_USERNAME = '@rtwiatBot'; 
 const REGEX_USERNAME = new RegExp(BOT_USERNAME);
 
 main = () => {
