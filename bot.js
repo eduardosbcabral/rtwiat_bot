@@ -10,7 +10,7 @@ const BOT_USERNAME = '@rtwiatBot';
 const REGEX_USERNAME = new RegExp(BOT_USERNAME);
 
 main = () => {
-    getMentions(tweet => {
+    getMentions(tweet => { 
         let tweet_id = tweet.id_str;
         let tweet_user = tweet.user.screen_name;
         let id_replied_tweet = tweet.in_reply_to_status_id_str;
